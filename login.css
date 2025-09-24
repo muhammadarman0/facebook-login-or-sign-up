@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+
+    background-color: #f2f4f7;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 100px;
+    height: 100vh;
+}
+
+.box1>p {
+    width: 350px;
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+.face-logo {
+    width: 300px;
+    height: 100px;
+    animation: bounce;
+    animation-duration: 2s;
+}
+
+.box2 {
+    width: 396px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    height: 335px;
+    background-color: white;
+    border-radius: 15px;
+}
+
+.inputEmail {
+    padding: 11px;
+    /* background-color: white; */
+    border-radius: 15px;
+
+
+}
+
+.inputEmail>input {
+    width: 100%;
+    height: 50px;
+    /* background-color: white; */
+    padding: 11px;
+    border-radius: 5px;
+    font-size: 16px;
+    outline: none;
+    border: 1px solid gray;
+}
+
+.inputEmail>input:focus {
+    border: 1px solid blue;
+}
+
+.btn-login {
+    width: 100%;
+    /* height: 50px; */
+    padding: 10px;
+}
+
+.btn-login>button {
+    width: 100%;
+    height: 45px;
+    background-color: #0866ff;
+    color: white;
+    border: 1px solid;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.para>p {
+    text-align: center;
+    font-size: 14px;
+    /* text-decoration: underline; */
+    color: blue;
+    margin-top: 10px;
+}
+
+.para>p:hover {
+    text-decoration: underline;
+}
+
+hr {
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 20px;
+    color: rgb(201, 196, 196);
+}
+
+.create-btn {
+    width: 100%;
+    /* height: 50px; */
+    padding: 10px;
+}
+
+.create-btn>a {
+    width: 60%;
+    height: 45px;
+    background-color: #42b72a;
+    color: white;
+    border: 1px solid;
+    margin: 10px auto;
+    display: flex;
+    justify-content: center;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: none;
+    align-items: center;
+    border-radius: 10px;
+}
+
+@media only screen and (max-width:746px) {
+    .container {
+        display: block;
+        margin: 0 auto;
+        justify-content: center;
+    }
+
+    .box1>p {
+        display: none;
+    }
+
+    .face-logo {
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+    }
+
+    .box2 {
+        display: block;
+        justify-content: center;
+        margin: 0 auto;
+    }
+}
+
+@media only screen and (max-width:376px) {
+    .box2 {
+        padding: 10px;
+        height: 350px;
+    }
+}

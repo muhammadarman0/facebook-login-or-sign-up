@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #f0f2f5;
+}
+
+.face-lgog {
+    width: 350px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.part-2 {
+    width: 450px;
+    height: 600px;
+    background-color: white;
+    /* display: flex; */
+    justify-content: center;
+    margin: 0 auto;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 18px 50px -10px;
+}
+
+.input-para {
+    width: 100%;
+    text-align: center;
+    padding: 11px;
+}
+
+.input-text>p {
+    text-align: center;
+    color: grey;
+}
+
+.input-text>hr {
+    margin-top: 20px;
+    border: 1px solid rgb(202, 200, 200);
+}
+
+.firstinput {
+    width: 100%;
+    padding: 11px;
+    display: flex;
+    gap: 10px;
+
+}
+
+/* .main{
+    display: flex;
+} */
+.firstinput>input {
+    width: 100%;
+    padding: 11px;
+    height: 40px;
+    display: flex;
+    font-size: 17px;
+    border-radius: 7px;
+    border: 1px solid grey;
+    outline: none;
+}
+
+.select {
+    width: 100%;
+    padding: 11px;
+    margin-top: 5px;
+    display: flex;
+    gap: 10px;
+}
+
+.all-opt {
+    padding: 11px;
+    width: 100%;
+    font-size: 15px;
+    border: 1px solid rgb(179, 176, 176);
+    border-radius: 8px;
+    color: rgb(110, 107, 107);
+}
+
+.date-para>p {
+    margin-left: 12px;
+    margin-top: 5px;
+    font-size: 14px;
+    color: grey;
+}
+
+.gander>p {
+    margin-left: 12px;
+    margin-top: 5px;
+    font-size: 14px;
+    color: grey;
+}
+
+.radios {
+    width: 100%;
+    padding: 11px;
+    display: flex;
+    gap: 10px;
+
+    margin-left: 10px;
+}
+
+.radios>input {
+    width: 100%;
+    font-size: 15px;
+    color: rgb(110, 107, 107);
+}
+
+span {
+    font-size: 17px;
+    color: rgb(83, 81, 81);
+}
+
+.mobileinput {
+    width: 100%;
+    padding: 11px;
+    /* display: flex; */
+}
+
+.mobileinput>input {
+    width: 100%;
+    padding: 11px;
+    border: 1px solid gray;
+    font-size: 16px;
+    border-radius: 8px;
+    height: 45px;
+}
+
+.privacy {
+    font-size: 12px;
+    color: grey;
+    margin: 0 auto;
+    margin-left: 18px;
+    margin-top: 5px;
+}
+
+.btn {
+    width: 100%;
+    padding: 11px;
+}
+
+.btn>a {
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    font-size: 16px;
+    border: 1px solid gray;
+    text-decoration: none;
+    color: white;
+    background-color: #00a400;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.btn>button:hover {
+    opacity: 0.8;
+}
